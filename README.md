@@ -6,6 +6,10 @@
 <br>
 
 
+Publising (배포) : https://yeker12.github.io/To_Do_List/
+<br>
+
+
 ### 기능 소개
 
 #### 메인 화면    
