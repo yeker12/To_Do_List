@@ -9,13 +9,14 @@
 </head>
 <body>
     <div class="container">
-        <form class="hidden" id ="logInForm">
-            <input type="text" name="userName" placeholder="user ID" required maxlength="15">
-            <button class="button">Log In</button>
-        </form>
-        <div id="userName"></div>
+        <div class="loginBox">
+            <form class="hidden" id ="logInForm">
+                <input type="text" name="userName" placeholder="user ID" required maxlength="15">
+                <button class="button">Log In</button>
+            </form>
+            <div class="userNameBox" id="userName"></div>
         </div>
-        <div>
+        <div class="todayClockBox">
             <div id="today"></div>
             <div id="clock"></div>
         </div>
@@ -23,14 +24,16 @@
             <span></span>
             <span></span>
         </div>
-        <div>
+        <div class="todolistBox">
+            <h4>To Do List</h4>
             <form id="todolist">
                 <input type="text" required placeholder="Add to do">
-                <button>추가</button>
+                <button class="todolistBtn">추가</button>
             </form>
             <ul id="list"></ul>
         </div>
-        <div>Done List
+        <div class="doneListBox">
+            <h4>Done List</h4>
             <ul id="doneList"></ul>
         </div>
         <div id="quotes">

@@ -11,7 +11,7 @@ function onGeoOk(position){
         const cityContainer = document.querySelector("#weather span:first-child");
         const weatherContainer = document.querySelector("#weather span:last-child");
         cityContainer.innerText = data.name;
-        weatherContainer.innerText = ` / ${data.weather[0].main} / ${data.main.temp}℃ `;
+        weatherContainer.innerText = ` ${data.weather[0].main}  ${data.main.temp}℃ `;
     });
 }
 function onGeoError(){
