@@ -12,7 +12,7 @@ const randomNum = Math.floor(Math.random() * img.length);
 const currentImg = img[randomNum];
 
 const backgroundImg = document.createElement("img");
-backgroundImg.src = `../${currentImg}`;
+backgroundImg.src = `../img/${currentImg}`;
 
 
 //document.body.appendChild(backgroundImg);
