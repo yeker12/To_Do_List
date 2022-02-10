@@ -1,3 +1,197 @@
 .hidden{
     display: none;
 }
+
+
+body{
+    background-repeat : no-repeat;
+    background-size : cover;
+    display: flex;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.container{
+    margin-top: 20px;
+    background-color: rgba(255,255,255,0.5);
+    opacity:0.8;
+    width: 70%;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 80px 80px auto 80px;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+.loginBox{
+    background-color: #e8ecf0;
+    grid-column: span 2;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginBox > .userNameBox{
+    font-size: 3vw;
+    font-weight: 800;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #166fb9;
+}
+
+.loginBox > form > .button{
+    background-color: #4682b4 ;
+    color: white;
+    font-weight: 800;
+    border: 0; 
+    box-shadow: none;
+    border-radius:10px; 
+    padding: 5px 10px 5px 10px; 
+    overflow:visible; 
+    cursor:pointer;
+    margin-left: 5px;
+}
+
+.loginBox > form > input {
+    border-radius: 3px;
+    font-size: 1.5vw;
+    border: 1px solid white;
+}
+
+.todayClockBox{
+    background-color: #e8ecf0;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.todayClockBox > #clock{
+    font-size: 2.5vw;
+    font-weight: 800;
+}
+
+#weather{
+    background-color: #e8ecf0;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#weather > span:nth-child(1){
+    font-size: 2.1vw;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.todolistBox{
+    background-color: #5f8fb7;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.todolistBox > h4{
+    font-size: 1.5vw;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+.todolistBox > #todolist{
+    text-align: center;
+}
+
+.todolistBox > #list{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    line-height: 2.5vw;
+    
+}
+
+.todolistBox > #list > li > button {
+    background-color: white;
+    color: #4682b4;
+    border: 0; 
+    box-shadow: none;
+    border-radius:10px; 
+    padding: 3px 7px 3px 7px; 
+    overflow:visible; 
+    cursor:pointer;
+    margin-left: 10px;
+}
+
+
+#todolist > input{
+    border-radius: 3px;
+    font-size: 1.3vw;
+    border: 1px solid white;
+}
+
+#todolist > .todolistBtn{
+    background-color: white;
+    color: #4682b4;
+    font-weight: 800;
+    border: 0; 
+    box-shadow: none;
+    border-radius:10px; 
+    padding: 5px 10px 5px 10px; 
+    overflow:visible; 
+    cursor:pointer;
+    margin-left: 5px;
+    
+}
+
+#todolist > .todolistBtn:hover{background-color:rgb(241, 240, 240);}
+
+.doneListBox{
+    background-color:#5caeb7;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.doneListBox > h4{
+    font-size: 1.5vw;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+.doneListBox > #doneList{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    line-height: 2.5vw;
+}
+
+.doneListBox > #doneList > li > button {
+    background-color: white;
+    color: #4682b4;
+    border: 0; 
+    box-shadow: none;
+    border-radius:10px; 
+    padding: 5px 10px 5px 10px; 
+    overflow:visible; 
+    cursor:pointer;
+    margin-left: 10px;
+}
+
+
+
+#quotes{
+    padding: 25px;
+    background-color:#e8ecf0;
+    grid-column: span 2;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
