@@ -15,8 +15,8 @@ const randomNum = Math.floor(Math.random() * img.length);
 const currentImg = img[randomNum];
 
 const backgroundImg = document.createElement("img");
-backgroundImg.src = `img/${currentImg}`;
+backgroundImg.src = `./img/${currentImg}`;
 
 
-document.body.style.backgroundImage = `url("https://***.github.io/***/${backgroundImg.src}")`;
+document.body.style.backgroundImage = `url("${backgroundImg.src}")`;
 
