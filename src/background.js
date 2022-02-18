@@ -1,7 +1,13 @@
 const img = [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
     "4.png",
     "5.png",
     "6.png",
+    "7.jpg",
+    "8.jpg",
+    "9.jpg",
 ];
 const BACKGROUND_CLASSNAME = "background";
 
